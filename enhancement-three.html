@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Enhancement 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Enhancement Three</h1>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
 
+    <nav class="nav-menu">
+        <div class="close-menu">&times;</div>
+        <ul>
+            <li><a href="index.html">Self Assessment</a></li>
+            <li><a href="code-review.html">Code Review</a></li>
+            <li><a href="enhancement-one.html">Enhancement 1</a></li>
+            <li><a href="enhancement-two.html">Enhancement 2</a></li>
+            <li><a href="enhancement-three.html" class="active-page">Enhancement 3</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h2>Enhancement 3: GrocConnect Databases</h2>
+            
+            <h3>Overview</h3>
+            <p>For the database enhancement, there was no artifact from a previous project or coursework. The enhancement is an extension of my first enhancement, which is the MongoDB connection in my Grocconnect web stack application. It establishes a vital connection between the Express server and the database, enabling the application to handle GET, POST, PUT, DEL, etc., requests through specific API endpoints. This enhancement was created when I started my Grocconnect application. 
+</p>
+            
+            <h3>Justify Inclusion</h3>
+            <p>I selected this item for my ePortfolio because it demonstrates both my understanding of backend development and my ability to implement scalable applications in a full-stack environment. The artifact highlights several skills in software development, including API design, server-database interaction through interceptors for authentication, and HTTPRouter. It is also an implementation of a RESTful architecture, which is vital in web development. By enabling dynamic data handling between the client and server, this enhancement improves the overall functionality and responsiveness of the application. The program from category 1 has been improved through clear and secure routes and efficient data schemas using Mongoose. It showcases my ability to move beyond static content delivery and into dynamic, data-driven development. 
+</p>
+          <p>
+            Additionally, it demonstrates my secure coding mindset. Sensitive information such as the JWT_SECRET encryption string, is stored securely in a .env file, which is then protected through .gitignore practices. User authentication is required to perform CRUD operations on the database, implemented through JSON Web Tokens (JWTs) and stored in the browser using the Local Storage API. I chose Local Storage because it allows for flexible key-value pairing, which fits the needs of this application. Although Local Storage is susceptible to script-injection (XSS) attacks, I recognized this trade-off after evaluating the alternative of using browser cookies, prioritizing ease of access for this project.
+          </p>
+          <h3>Course Outcomes</h3>
+          <p>
+            Yes, the course outcome I planned to meet with this enhancement, the fifth course outcome, was successfully achieved. I implemented a JWT system that generates a token when a user either registers or logs into the admin page. This token is then required for server-side API calls, ensuring that certain HTTP verbs, particularly those that modify data, are protected and only accessible to authenticated users. This prevents unauthorized changes and secures the backend operations.
+          </p>
+          <p>
+            Additionally, this enhancement also supports the first course outcome. Throughout the project, I incorporated extensive inline comments and informative log messages for debugging purposes. These elements not only assist during development but also provide clarity for future developers by indicating which parts of the codebase are being accessed and how the application flows. As a result, the codebase remains maintainable, understandable, and professional.
+          </p>
+          
+            <h3>Reflection</h3>
+            <p>
+          	Enhancing and modifying this artifact was a valuable learning experience that deepened my understanding of full-stack web development, particularly in connecting a front-end interface to a back-end database using MongoDB and Express. As I built and improved the database integration within my Grocconnect application, I gained hands-on experience in designing RESTful APIs, structuring database schemas, and ensuring smooth communication between the server and the database. I am still learning ways to enhance the code base, like introducing a shopping cart where the guest user would be able to purchase the items if implemented for a grocery store. There is still a lot to learn in connecting the backend to the frontend servers of Express or rapid rendering, like with Angular. 
+            </p>
+        </section>
+    </main>
+
+    <footer>
+      <p>Connect with me:</p>
+      <div class="footer-links">
+                <a href="https://github.com/esm05/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/evan-malia-608165220/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+  </body>
+</html>
